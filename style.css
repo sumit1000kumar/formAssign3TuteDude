@@ -1,0 +1,98 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #f9f5ff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #4b2e83;
+    margin-bottom: 25px;
+  }
+  
+  input,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    border-color: #a48adb;
+    outline: none;
+  }
+  
+  button {
+    background-color: #6c47d8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #5930c4;
+  }
+  
+  #messageBox {
+    padding: 10px;
+    margin-bottom: 15px;
+    display: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Green for success */
+  .success {
+    background-color: #e0f8e9;
+    color: #2b7a4b;
+    border: 1px solid #b2e2c5;
+  }
+  
+  /* Red for error */
+  .error {
+    background-color: #ffe5e5;
+    color: #c0392b;
+    border: 1px solid #f5b5b5;
+  }
+  
+  .password-wrapper {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .password-wrapper input {
+    flex: 1;
+  }
+  
+  .password-wrapper button {
+    width: auto;
+    padding: 10px 14px;
+    font-size: 0.8rem;
+    background-color: #eae0ff;
+    color: #4b2e83;
+    border: 1px solid #c3b4ef;
+    font-weight: 500;
+  }
+  
+  .password-wrapper button:hover {
+    background-color: #d8caff;
+  }
+  
